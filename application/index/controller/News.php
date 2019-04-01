@@ -15,6 +15,9 @@ class News
     {
         if ($request->isGet()) {
             return view('release');
+        } else {
+            //用户发布文章
+
         }
     }
 }

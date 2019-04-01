@@ -35,6 +35,14 @@ function curl($url, $type, $param = null)
     return $data;
 }
 
+function log($message, $data = '')
+{
+    \think\facade\Log::info('message:{message}|data:{data}', [
+        'message' => $message,
+        'data' => $data
+    ]);
+}
+
 //应用公共常量
 define('APP_ID', 'wx985089ba7e56c17d');
 define('APP_SECRET', '7ca46d683ac1ca57909447838b0a697b');
