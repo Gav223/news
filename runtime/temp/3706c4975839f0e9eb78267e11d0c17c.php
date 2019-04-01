@@ -1,4 +1,4 @@
-<?php /*a:1:{s:60:"/www/wwwroot/news/application/index/view/personal/index.html";i:1553955471;}*/ ?>
+<?php /*a:1:{s:60:"/www/wwwroot/article/application/index/view/personal/index.html";i:1553955471;}*/ ?>
 <!doctype html>
 <html>
 <head>

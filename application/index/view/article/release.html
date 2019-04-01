@@ -16,14 +16,14 @@
     <title>首页</title>
 </head>
 <body>
-<form class="am-form" method="post" action="{:url('/releaseNews')}">
+<form class="am-form">
     <fieldset>
         <!--<legend>发布新闻</legend>-->
 
         <div class="am-form-group  am-input-sm">
             <label for="doc-ipt-email-1">文章类型</label>
             <div class="am-form-group am-form-select">
-                <select class="am-input-sm">
+                <select class="am-input-sm" name="category">
                     <option value="">生活</option>
                 </select>
             </div>
@@ -31,12 +31,12 @@
 
         <div class="am-form-group  am-input-sm">
             <label for="doc-ipt-email-1">标题</label>
-            <input type="text" class="am-input-sm" id="doc-ipt-email-1" placeholder="文章标题">
+            <input type="text" class="am-input-sm" id="doc-ipt-email-1" name="title" placeholder="文章标题">
         </div>
 
         <div class="am-form-group  am-input-sm">
             <label for="doc-ta-1">简介</label>
-            <textarea class="am-input-sm" rows="5" id="doc-ta-1" placeholder="文章简介"></textarea>
+            <textarea class="am-input-sm" rows="5" id="doc-ta-1" name="description" placeholder="文章简介"></textarea>
         </div>
 
         <div class="am-form-group  am-input-sm">
@@ -48,6 +48,7 @@
                         <i class="am-icon-cloud-upload"></i> 选择要上传的图片</button>
                 </div>
                 <input type="file" id="doc-ipt-file-2">
+                <input type="hidden" name="image_url" id="image_url">
             </div>
         </div>
         <div class="am-form-group am-form-file am-input-sm">
@@ -57,7 +58,7 @@
         </div>
 
         <p>
-            <button type="submit" class="am-btn am-btn-primary am-btn-block">发布</button>
+            <button type="button" id="releaseArticle" class="am-btn am-btn-primary am-btn-block">发布</button>
         </p>
     </fieldset>
 </form>
@@ -101,6 +102,52 @@
         }
     });
 
+</script>
+<script>
+    $('#doc-ipt-file-2').on('change', function () {
+        var file = this.files[0];
+        var fileName = file.name;
+        var fileType = fileName.substr(fileName.length - 4, fileName.length);
+        console.log(fileType);
+        if (fileType == 'jpg' || fileType == 'jpeg' || fileType == 'png') {
+            var formData = new FormData()
+            formData.append("image", file);
+            $.ajax({
+                url: "{:url('/index/Upload/uploadImage')}",
+                type: 'POST',
+                cache: false,
+                data: formData,
+                dataType: "json",
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    $("#image_url").val(response.data);
+                    //上传成功的处理
+                    alert('success');
+                }
+            });
+        } else {
+            alert('文件类型不正确');
+        }
+    });
+
+    $("#releaseArticle").click(function () {
+        //明天做
+        $.ajax({
+                url: "{:url('/index/Article/releaseArticle')}",
+                type: 'POST',
+                cache: false,
+                data: formData,
+                dataType: "json",
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    $("#image_url").val(response.data);
+                    //上传成功的处理
+                    alert('success');
+                }
+        });
+    });
 </script>
 
 </body>

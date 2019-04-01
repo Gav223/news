@@ -35,7 +35,7 @@ function curl($url, $type, $param = null)
     return $data;
 }
 
-function log($message, $data = '')
+function log4($message, $data = '')
 {
     \think\facade\Log::info('message:{message}|data:{data}', [
         'message' => $message,

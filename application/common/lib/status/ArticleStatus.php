@@ -1,5 +1,5 @@
 <?php
-namespace app\common\status;
+namespace app\common\lib\status;
 
 /**
  * Created by PhpStorm.

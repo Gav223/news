@@ -1,8 +1,10 @@
 <?php
 namespace app\index\service;
 
-use app\common\status\NewsSource;
-use app\index\model\News;
+use app\common\lib\Code;
+use app\common\lib\Message;
+use app\common\lib\status\NewsSource;
+use app\index\model\Article;
 use think\exception\DbException;
 
 /**
@@ -11,7 +13,7 @@ use think\exception\DbException;
  * Date: 19-4-1
  * Time: 下午8:50
  */
-class NewsService
+class ArticleService
 {
     public function req2model($request)
     {
@@ -30,12 +32,12 @@ class NewsService
     {
         $model = $this->req2model($request);
         try {
-            News::create($model);
-            log('文章发布成功', 'uid:'.cookie('uid'));
-            return json();
+            Article::create($model);
+            log4('文章发布成功', 'uid:'.cookie('uid'));
+            return json(['code' => Code::$SUCCESS, 'message' => Message::$SUCCESS]);
         } catch (DbException $exception) {
-            log('文章发布失败', 'uid:'.cookie('uid').'原因:'.$exception->getMessage());
-            return json();
+            log4('文章发布失败', 'uid:'.cookie('uid').'原因:'.$exception->getMessage());
+            return json(['code' => Code::$FAIL, 'message' => Message::$FAIL]);
         }
     }
 }

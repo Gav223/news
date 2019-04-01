@@ -9,6 +9,6 @@ use think\Model;
  * Date: 19-4-1
  * Time: 下午8:51
  */
-class News extends Model
+class Article extends Model
 {
 }

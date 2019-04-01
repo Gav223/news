@@ -21,7 +21,7 @@ class Index extends Controller
     public function index()
     {
         if (Cookie::has('openid') === false) {
-            $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=".APP_ID."&redirect_uri=".urlencode('http://news.leephp.cn/silentAuthCallBack')."&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
+            $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=".APP_ID."&redirect_uri=".urlencode('http://article.leephp.cn/silentAuthCallBack')."&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
             Log::info('获取用户信息url:'.$url);
             $this->redirect($url);
         } else {
@@ -37,7 +37,7 @@ class Index extends Controller
     
     public function test()
     {
-	    return urlencode('http://139.199.60.237/news/public/index.php/index/Index/getUserBaseInfo');
+	    return urlencode('http://139.199.60.237/article/public/index.php/index/Index/getUserBaseInfo');
     }
 
     /**
