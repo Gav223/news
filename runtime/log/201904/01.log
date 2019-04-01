@@ -1,0 +1,1140 @@
+---------------------------------------------------------------
+[2019-04-01T00:01:06+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.021484s] [吞吐率：46.55req/s] [内存消耗：1,831.03kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:06+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013575s] [吞吐率：73.66req/s] [内存消耗：1,690.54kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:34+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014534s] [吞吐率：68.80req/s] [内存消耗：1,690.54kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:34+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013676s] [吞吐率：73.12req/s] [内存消耗：1,690.54kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:36+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013310s] [吞吐率：75.13req/s] [内存消耗：1,690.54kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:36+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014043s] [吞吐率：71.21req/s] [内存消耗：1,690.54kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:39+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.015189s] [吞吐率：65.84req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:40+08:00] 119.123.135.75 GET news.leephp.cn/index/index/index.html
+[运行时间：0.016481s] [吞吐率：60.68req/s] [内存消耗：1,811.30kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:40+08:00] 119.123.135.75 GET news.leephp.cn/index/index/index.html
+[运行时间：0.017691s] [吞吐率：56.53req/s] [内存消耗：1,811.30kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:01:42+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013456s] [吞吐率：74.32req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:02:25+08:00] 183.61.51.57 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013202s] [吞吐率：75.75req/s] [内存消耗：1,687.55kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'host' => 'news.leephp.cn',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:02:43+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.012697s] [吞吐率：78.76req/s] [内存消耗：1,690.87kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:05:14+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013126s] [吞吐率：76.18req/s] [内存消耗：1,690.53kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1903251 MicroMessenger/6.7.3 Language/zh_CN webview/15540368335701332 webdebugger port/39821',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:08:00+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.015482s] [吞吐率：64.59req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:10:29+08:00] 119.123.135.75 GET news.leephp.cn/personal.html
+[运行时间：0.016112s] [吞吐率：62.07req/s] [内存消耗：1,695.46kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'personal',
+  'route' => 'index/Personal/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/personal/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:11:42+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.014663s] [吞吐率：68.20req/s] [内存消耗：1,811.13kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:12:20+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.015152s] [吞吐率：66.00req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:12:23+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013511s] [吞吐率：74.01req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:13:46+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.014421s] [吞吐率：69.34req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:18:06+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.016394s] [吞吐率：61.00req/s] [内存消耗：1,811.63kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://mp.weixinbridge.com/mp/wapredirect?url=http%3A%2F%2Fnews.leephp.cn&pass_ticket=afwKKSt%2BvbJ27IuNGB1levxyHUru8ZCaTfO8EpgzxlYkpKqc9qqN4JqkSZ4ccnGs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:18:42+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.015122s] [吞吐率：66.13req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:19:44+08:00] 119.123.135.75 GET news.leephp.cn/personal.html
+[运行时间：0.015475s] [吞吐率：64.62req/s] [内存消耗：1,695.46kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'personal',
+  'route' => 'index/Personal/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/personal/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:21:08+08:00] 119.123.135.75 GET news.leephp.cn/personal.html
+[运行时间：0.013822s] [吞吐率：72.35req/s] [内存消耗：1,695.46kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'personal',
+  'route' => 'index/Personal/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/personal/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:25:16+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.014707s] [吞吐率：67.99req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:25:26+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.015204s] [吞吐率：65.77req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:26:26+08:00] 101.89.29.92 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014380s] [吞吐率：69.54req/s] [内存消耗：1,687.81kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:48:03+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.020015s] [吞吐率：49.96req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:49:12+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013640s] [吞吐率：73.31req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T00:49:19+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014074s] [吞吐率：71.05req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T01:09:56+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.016312s] [吞吐率：61.30req/s] [内存消耗：1,811.13kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T01:09:58+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.016120s] [吞吐率：62.03req/s] [内存消耗：1,811.13kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T01:09:59+08:00] 119.123.135.75 GET news.leephp.cn/
+[运行时间：0.014901s] [吞吐率：67.11req/s] [内存消耗：1,811.13kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T01:10:00+08:00] 119.123.135.75 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014173s] [吞吐率：70.56req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T12:58:36+08:00] 112.97.59.212 GET news.leephp.cn/
+[运行时间：0.016355s] [吞吐率：61.14req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T18:19:16+08:00] 112.97.59.212 GET news.leephp.cn/
+[运行时间：0.015668s] [吞吐率：63.82req/s] [内存消耗：1,811.10kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] cookie:{"id":1,"openid":"omCzu0idF96hgUnQPLryyznYuQW4","nickname":"因吹丝挺","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/dUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw\/132","create_time":1553963472}
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T18:19:24+08:00] 112.97.59.212 GET news.leephp.cn/personal.html
+[运行时间：0.013937s] [吞吐率：71.75req/s] [内存消耗：1,695.21kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'personal',
+  'route' => 'index/Personal/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/personal/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T18:19:33+08:00] 112.97.59.212 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014582s] [吞吐率：68.58req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T18:19:41+08:00] 112.97.59.212 GET news.leephp.cn/releaseNews.html
+[运行时间：0.013708s] [吞吐率：72.95req/s] [内存消耗：1,690.83kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'openid=omCzu0idF96hgUnQPLryyznYuQW4; userInfo=%7B%22id%22%3A1%2C%22openid%22%3A%22omCzu0idF96hgUnQPLryyznYuQW4%22%2C%22nickname%22%3A%22%E5%9B%A0%E5%90%B9%E4%B8%9D%E6%8C%BA%22%2C%22headimgurl%22%3A%22http%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FdUYrQdEH56zMf3M6G6RydUCFcUloiawDTfINXVyXw9hia1CwJqMkMxN4qxHrcQVNXAAwp9Wow0PiaaiajyzG8eS8cw%5C%2F132%22%2C%22create_time%22%3A1553963472%7D',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://news.leephp.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; Mi Note 3 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MMWEBID/9761 MicroMessenger/7.0.3.1400(0x2700033B) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-04-01T18:19:46+08:00] 112.97.59.212 POST news.leephp.cn/releaseNews.html
+[运行时间：0.011363s] [吞吐率：88.00req/s] [内存消耗：1,223.84kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-01T18:20:34+08:00] 101.91.60.108 GET news.leephp.cn/releaseNews.html
+[运行时间：0.014971s] [吞吐率：66.80req/s] [内存消耗：1,687.81kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/news/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'releaseNews',
+  'route' => 'index/News/releaseNews',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'news.leephp.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/news/application/index/view/news/release.html [ array (
+) ]
