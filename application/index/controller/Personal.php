@@ -1,7 +1,6 @@
 <?php
 namespace app\index\controller;
 
-use app\index\service\IndexService;
 use think\Controller;
 
 /**
@@ -12,11 +11,6 @@ use think\Controller;
  */
 class Personal extends Controller
 {
-    private $indexService;
-    public function __construct()
-    {
-        $this->indexService = new IndexService();
-    }
 
     /**
      * 模拟这是主页

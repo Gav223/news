@@ -1,7 +1,8 @@
 <?php
 namespace app\index\behavior;
 
-use think\Cookie;
+use think\facade\Cookie;
+use think\Request;
 use traits\controller\Jump;
 
 /**
@@ -14,9 +15,14 @@ class WxAuth
 {
     use Jump;
 
-    public function run()
+    /**
+     * 鉴权(如果cookie中没有openid就去授权
+     * @param Request $request
+     */
+    public function run(Request $request)
     {
-        if (Cookie::has('openid') === false) {
+        $action = $request->action(true);
+        if (Cookie::has('openid') === false && $action !== 'wxAuthCallBack') {
             $this->redirect(WX_GET_USER_INFO_API_PATH);
         }
     }

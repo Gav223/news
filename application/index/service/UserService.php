@@ -2,7 +2,7 @@
 namespace app\index\service;
 
 use app\common\model\User;
-use think\Cookie;
+use think\facade\Cookie;
 
 /**
  * Created by PhpStorm.
@@ -12,12 +12,12 @@ use think\Cookie;
  */
 class UserService
 {
-    public function getUserInfoByOpenid($openid)
+    public static function getUserInfoByOpenid($openid)
     {
         return User::findOneByCondition(['openid' => $openid]);
     }
 
-    public function wxUserInfo2domain(array $wxUserInfo)
+    public static function wxUserInfo2domain(array $wxUserInfo)
     {
         $domain = [];
         $domain['create_time'] = time();
@@ -27,12 +27,12 @@ class UserService
         return $domain;
     }
 
-    public function insertUserInfo($domain)
+    public static function insertUserInfo($domain)
     {
         return User::create($domain);
     }
 
-    public function setUserInfoCookie($userInfo)
+    public static function setUserInfoCookie($userInfo)
     {
         Cookie::set('openid', $userInfo['openid']);
         Cookie::set('uid', $userInfo['id']);
