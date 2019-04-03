@@ -1,7 +1,5 @@
 <?php
-namespace app\index\model;
-
-use think\Model;
+namespace app\common\model;
 
 /**
  * Created by PhpStorm.
@@ -9,6 +7,6 @@ use think\Model;
  * Date: 19-4-1
  * Time: 下午8:51
  */
-class Article extends Model
+class Article extends Base
 {
 }

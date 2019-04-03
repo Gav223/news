@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3fcebd-82a1-4d2a-8580-814a8acbf134" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/common/model/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/validate/ArticleValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/validate/ArticleValidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/service/ArticleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/service/ArticleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/service/IndexService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/article/release.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/article/release.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,21 +41,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/News.php">
+        <entry file="file://$PROJECT_DIR$/application/index/behavior/WxAuth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/index/service/NewsService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#36#69#0#PHP" expanded="true" />
+                <element signature="e#37#54#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="699">
+              <caret line="48" column="146" selection-start-line="48" selection-start-column="146" selection-end-line="48" selection-end-column="146" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -67,49 +65,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="e#39#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/model/News.php">
+        <entry file="file://$PROJECT_DIR$/route/route.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/service/IndexService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/common/status/ArticleStatus.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/common/status/NewsSource.php">
+        <entry file="file://$PROJECT_DIR$/application/common/model/ArticleCategory.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/common/model/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -130,6 +107,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,9 +120,6 @@
         <option value="$PROJECT_DIR$/config/template.php" />
         <option value="$PROJECT_DIR$/application/index/view/personal/index.html" />
         <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/application/index/model/User.php" />
-        <option value="$PROJECT_DIR$/application/index/service/IndexService.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Personal.php" />
         <option value="$PROJECT_DIR$/../mcat/mcat88.com/application/admin/controller/Exchangeadd.php" />
         <option value="$PROJECT_DIR$/../Blog/config/database.php" />
@@ -150,8 +127,27 @@
         <option value="$PROJECT_DIR$/application/common/status/NewsSource.php" />
         <option value="$PROJECT_DIR$/application/index/controller/News.php" />
         <option value="$PROJECT_DIR$/application/index/model/News.php" />
-        <option value="$PROJECT_DIR$/application/common.php" />
         <option value="$PROJECT_DIR$/application/index/service/NewsService.php" />
+        <option value="$PROJECT_DIR$/application/index/model/Article.php" />
+        <option value="$PROJECT_DIR$/application/index/model/ArticleCategory.php" />
+        <option value="$PROJECT_DIR$/application/common/validate/ArticleValidate.php" />
+        <option value="$PROJECT_DIR$/application/index/model/User.php" />
+        <option value="$PROJECT_DIR$/application/index/view/article/release.html" />
+        <option value="$PROJECT_DIR$/application/index/model/Base.php" />
+        <option value="$PROJECT_DIR$/application/common/model/Article.php" />
+        <option value="$PROJECT_DIR$/application/common/model/ArticleCategory.php" />
+        <option value="$PROJECT_DIR$/application/common/model/Base.php" />
+        <option value="$PROJECT_DIR$/application/common/model/User.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Article.php" />
+        <option value="$PROJECT_DIR$/application/index/service/ArticleService.php" />
+        <option value="$PROJECT_DIR$/application/index/service/WxService.php" />
+        <option value="$PROJECT_DIR$/application/index/service/IndexService.php" />
+        <option value="$PROJECT_DIR$/application/index/service/UserService.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
+        <option value="$PROJECT_DIR$/route/route.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Wx.php" />
+        <option value="$PROJECT_DIR$/application/index/behavior/WxAuth.php" />
+        <option value="$PROJECT_DIR$/application/common.php" />
       </list>
     </option>
   </component>
@@ -161,7 +157,7 @@
       <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="461" />
     <option name="width" value="1380" />
     <option name="height" value="1017" />
@@ -174,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,43 +178,10 @@
               <item name="news" type="b2602c69:ProjectViewProjectNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +197,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/common" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/static/index" />
       <recent name="$PROJECT_DIR$/application/index/view/personal" />
@@ -274,11 +241,12 @@
       <workItem from="1553304684463" duration="599000" />
       <workItem from="1553401967443" duration="1300000" />
       <workItem from="1554121421596" duration="2715000" />
+      <workItem from="1554267781860" duration="9011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25688000" />
+    <option name="totallyTimeSpent" value="34699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,12 +258,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="0" width="1380" height="1017" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21009035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15203427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.32993197" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -313,107 +282,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32977587" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.25225905" />
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.25214133" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="404" column="2" selection-start-line="404" selection-start-column="2" selection-end-line="404" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/curl/curl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/think">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.视频列表页.html" />
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/index/css/wap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/personal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="141" column="61" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11.个人中心.html" />
-    <entry file="file://$PROJECT_DIR$/config/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Personal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#39#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/home/controller/Index.php" />
-    <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/home/controller/Business.php" />
-    <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/home/controller/Conversion.php" />
     <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/home/controller/Newperson.php" />
     <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/admin/controller/User.php" />
     <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/admin/controller/Userblackmenu.php" />
@@ -440,68 +315,166 @@
     <entry file="file://$PROJECT_DIR$/../blog/application/admin/controller/Admin.php" />
     <entry file="file://$PROJECT_DIR$/../mcat/mcat88.com/application/admin/controller/Cornucopia.php" />
     <entry file="file://$PROJECT_DIR$/../Blog/config/database.php" />
-    <entry file="file://$PROJECT_DIR$/application/common/status/ArticleStatus.php">
+    <entry file="file://$PROJECT_DIR$/application/common/status/ArticleStatus.php" />
+    <entry file="file://$PROJECT_DIR$/application/common/status/NewsSource.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/controller/News.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/model/News.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/service/NewsService.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/view/article/release.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="312">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/status/NewsSource.php">
+    <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/validate/ArticleValidate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/service/ArticleService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/service/UserService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#36#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/service/IndexService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1147">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#36#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="399">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#39#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="e#39#74#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/News.php">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="399">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#39#63#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/model/News.php">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/service/WxService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-220">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/service/IndexService.php">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Wx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+          <folding>
+            <element signature="e#39#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/behavior/WxAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#37#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="699">
+          <caret line="48" column="146" selection-start-line="48" selection-start-column="146" selection-end-line="48" selection-end-column="146" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/service/NewsService.php">
+    <entry file="file://$PROJECT_DIR$/route/route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="e#36#69#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/ArticleCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

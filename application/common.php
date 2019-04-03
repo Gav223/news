@@ -46,3 +46,4 @@ function log4($message, $data = '')
 //应用公共常量
 define('APP_ID', 'wx985089ba7e56c17d');
 define('APP_SECRET', '7ca46d683ac1ca57909447838b0a697b');
+define('WX_GET_USER_INFO_API_PATH', "https://open.weixin.qq.com/connect/oauth2/authorize?appid=".APP_ID."&redirect_uri=".urlencode('http://news.leephp.cn/wxAuthCallBack')."&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect");

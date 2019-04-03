@@ -13,7 +13,7 @@ class ArticleValidate extends Validate
 {
     protected $rule =   [
         'title|新闻标题'   => 'require|length:5,15',
-        'description|新闻简介' => 'require|length:30,100',
+        'description|新闻简介' => 'require|length:30,50',
         'image_url|新闻图片' => 'require'
     ];
 

@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
 
+use app\common\model\ArticleCategory;
 use app\index\service\ArticleService;
 use think\Request;
 
@@ -20,7 +21,8 @@ class Article
     public function releaseArticle(Request $request)
     {
         if ($request->isGet()) {
-            return view('release');
+            $categoryList = ArticleCategory::findByCondition();
+            return view('release', ['categoryList' => $categoryList]);
         } else {
             //用户发布文章
             return ArticleService::releaseNews($request->param());
