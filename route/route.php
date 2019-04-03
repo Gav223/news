@@ -13,7 +13,7 @@ Route::get('personal', 'index/Personal/index');
 
 Route::get('wxAuthCallBack', 'index/Wx/wxAuthCallBack');
 
-Route::get('releaseArticle', 'index/ArticleValidate/releaseArticle');
+Route::get('releaseArticle', 'index/Article/releaseArticle');
 
 Route::get('uploadImage', 'index/Upload/uploadImage');
 

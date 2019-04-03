@@ -1,11 +1,6 @@
 {extend name="base" /}
 {block name="title"}首页{/block}
 {block name="main"}
-<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
-    <a href="#top" title="">
-        <img class="am-gotop-icon-custom" src="__USER__/goTop.png" />
-    </a>
-</div>
 
 <div class="pet_mian" id="top">
     <div data-am-widget="slider" class="am-slider am-slider-a2" data-am-slider='{"directionNav":false}' >
@@ -125,7 +120,7 @@
                         </div>
                         <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
                             <h3 class="am-list-item-hd pet_list_one_bt">
-                                <a href="###" class="">
+                                <a href="{:url('Article/detail', ['id' => $value['id']])}" class="">
                                     {$value['title']}阿诗丹顿多多多多多多多多多多多多多多多多多多多多多
                                 </a>
                             </h3>
@@ -135,7 +130,7 @@
 
                         </div>
                         <div class="am-u-sm-4 am-list-thumb">
-                            <a href="###" class="">
+                            <a href="{:url('Article/detail', ['id' => $value['id']])}" class="">
                                 <img src="__USER__/img/q1.jpg" class="pet_list_one_img" alt=""/>
                             </a>
                         </div>
@@ -150,8 +145,6 @@
 
 </div>
 
-<script src="__USER__/js/jquery.min.js"></script>
-<script src="__USER__/js/amazeui.min.js"></script>
 <script>
     $(function(){
 

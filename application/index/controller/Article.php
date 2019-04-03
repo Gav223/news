@@ -28,4 +28,9 @@ class Article
             return ArticleService::releaseNews($request->param());
         }
     }
+
+    public function detail(Request $request)
+    {
+        return view('detail', ['article' => ArticleService::getArticleDetails($request->param())]);
+    }
 }

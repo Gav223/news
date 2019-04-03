@@ -4,8 +4,8 @@ namespace app\index\service;
 use app\common\lib\Code;
 use app\common\lib\Message;
 use app\common\lib\status\NewsSource;
-use app\common\validate\ArticleValidate;
 use app\common\model\Article;
+use app\common\validate\ArticleValidate;
 use think\exception\DbException;
 
 /**
@@ -55,5 +55,11 @@ class ArticleService
             log4('文章发布失败', 'uid:'.cookie('uid').'原因:'.$exception->getMessage());
             return json(['code' => Code::$FAIL, 'message' => Message::$FAIL]);
         }
+    }
+
+    public static function getArticleDetails($requestParam)
+    {
+        $articleId = $requestParam['id'];
+        return Article::findOneByCondition(['id' => $articleId]);
     }
 }
