@@ -23,8 +23,10 @@
         <div class="am-form-group  am-input-sm">
             <label for="category">文章类型</label>
             <div class="am-form-group am-form-select">
-                <select class="am-input-sm" name="category" id="category">
-                    <option value="">生活</option>
+                <select class="am-input-sm" name="category_id" id="category">
+                    {foreach $categoryList as $key => $value}
+                        <option value="{$value['id']}">{$value['name']}</option>
+                    {/foreach}
                 </select>
             </div>
         </div>
@@ -54,8 +56,7 @@
         <div class="am-form-group am-form-file am-input-sm">
             <label for="doc-ipt-file-2">文章内容</label>
         </div>
-        <div id="content">
-        </div>
+        <div id="content"></div>
 
         <p>
             <button id="releaseArticle" class="am-btn am-btn-primary am-btn-block">发布</button>
@@ -88,6 +89,62 @@
         $('.pet_more_close').on('click',function(){
             $('.pet_more_list').removeClass('pet_more_list_show');
         });
+
+        $('#doc-ipt-file-2').on('change', function () {
+            var file = this.files[0];
+            var fileName = file.name;
+            var fileType = fileName.substr(fileName.length - 4, fileName.length);
+            console.log(fileType);
+            if (fileType == '.jpg' || fileType == '.jpeg' || fileType == '.png') {
+                var formData = new FormData()
+                formData.append("image", file);
+                $.ajax({
+                    url: "{:url('/index/Upload/uploadImage')}",
+                    type: 'POST',
+                    cache: false,
+                    data: formData,
+                    dataType: "json",
+                    processData: false,
+                    contentType: false,
+                    success: function (response) {
+                        $("#image_url").val(response.data);
+                        //上传成功的处理
+                        alert('success');
+                    }
+                });
+            } else {
+                alert('文件类型不正确');
+            }
+        });
+
+        $("#releaseArticle").click(function () {
+            var params = $("#form").serializeArray();
+            var values = {'_method':'POST','content':$("#content").html()};
+            for( x in params ){
+                values[params[x].name] = params[x].value;
+            }
+            var formData = JSON.stringify(values);
+            $.ajax({
+                    url: "{:url('/index/Article/releaseArticle')}",
+                    type: 'POST',
+                    cache: false,
+                    data:formData,
+                    dataType: "json",
+                    processData: false,
+                    contentType: false,
+                    success: function (response) {
+                        if (response.code === 200) {
+                            alert('新闻发布成功,请耐心等待管理员审核');
+                            location.href = "{:url('/')}";
+                        } else {
+                            alert(response.message);
+                            return false;
+                        }
+                    }
+            });
+            return false;
+
+        });
     });
 
     var content = new Eleditor({
@@ -103,6 +160,7 @@
     });
 
 </script>
+<<<<<<< HEAD
 <script>
     $('#doc-ipt-file-2').on('change', function () {
         var file = this.files[0];
@@ -159,5 +217,7 @@
     });
 </script>
 
+=======
+>>>>>>> 96843ff63b483cf7e23d0eafb8c7c3b5e4abb8b8
 </body>
 </html>

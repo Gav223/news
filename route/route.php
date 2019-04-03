@@ -11,11 +11,13 @@
 
 Route::get('personal', 'index/Personal/index');
 
-Route::get('silentAuthCallBack', 'index/Index/silentAuthCallBack');
+Route::get('wxAuthCallBack', 'index/Wx/wxAuthCallBack');
 
 Route::get('releaseArticle', 'index/ArticleValidate/releaseArticle');
 
 Route::get('uploadImage', 'index/Upload/uploadImage');
+
+Route::get('wxApiConfig', 'index/Wx/apiConfig');
 return [
 
 ];

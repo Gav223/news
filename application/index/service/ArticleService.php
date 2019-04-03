@@ -5,7 +5,7 @@ use app\common\lib\Code;
 use app\common\lib\Message;
 use app\common\lib\status\NewsSource;
 use app\common\validate\ArticleValidate;
-use app\index\model\Article;
+use app\common\model\Article;
 use think\exception\DbException;
 
 /**
@@ -17,6 +17,11 @@ use think\exception\DbException;
 class ArticleService
 {
 
+    /**
+     * 请求数据2数据库数据
+     * @param $request
+     * @return array
+     */
     public static function req2model($request)
     {
         $model = [];
@@ -24,6 +29,9 @@ class ArticleService
         $model['description'] = $request['description'];
         $model['source'] = NewsSource::$USER_ADD;
         $model['uid'] = cookie('uid');
+        $model['image_url'] = $request['image_url'];
+        $model['category_id'] = $request['category_id'];
+        $model['content'] = $request['content'];
         $model['create_time'] = time();
         return $model;
     }
@@ -35,6 +43,7 @@ class ArticleService
     {
         $validate = new ArticleValidate();
         if ($validate->scene('insert')->check($request) === false) {
+            log4('参数验证未通过', $validate->getError());
             return json(['code' => Code::$PARAM_ERROR, 'message' => $validate->getError()]);
         }
         $model = self::req2model($request);

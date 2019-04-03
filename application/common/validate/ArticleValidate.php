@@ -12,14 +12,14 @@ use think\Validate;
 class ArticleValidate extends Validate
 {
     protected $rule =   [
-        'title|新闻标题'   => 'require|length:5,15',
-        'description|新闻简介' => 'require|length:30,100',
+        'title|新闻标题'   => 'require|length:15,20',
+        'description|新闻简介' => 'require|length:30,50',
         'image_url|新闻图片' => 'require'
     ];
 
     protected $message  =   [
-        'title.length' => '新闻标题长度必须在5-15字之间',
-        'description.length' => '新闻描述长度必须在30-100字之间'
+        'title.length' => '新闻标题长度必须在15-20字之间',
+        'description.length' => '新闻描述长度必须在30-50字之间'
     ];
 
     protected $scene = [
