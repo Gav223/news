@@ -13,7 +13,7 @@ Route::get('personal', 'index/Personal/index');
 
 Route::get('silentAuthCallBack', 'index/Index/silentAuthCallBack');
 
-Route::get('releaseNews', 'index/Article/releaseArticle');
+Route::get('releaseArticle', 'index/ArticleValidate/releaseArticle');
 
 Route::get('uploadImage', 'index/Upload/uploadImage');
 return [

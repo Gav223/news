@@ -15,16 +15,15 @@ class Article
     /**
      * 发布新闻
      * @param Request $request
-     * @param ArticleService $service
      * @return \think\response\Json|\think\response\View
      */
-    public function releaseArticle(Request $request, ArticleService $service)
+    public function releaseArticle(Request $request)
     {
         if ($request->isGet()) {
             return view('release');
         } else {
             //用户发布文章
-            return $service->releaseNews($request->param());
+            return ArticleService::releaseNews($request->param());
         }
     }
 }

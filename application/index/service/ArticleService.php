@@ -4,6 +4,7 @@ namespace app\index\service;
 use app\common\lib\Code;
 use app\common\lib\Message;
 use app\common\lib\status\NewsSource;
+use app\common\validate\ArticleValidate;
 use app\index\model\Article;
 use think\exception\DbException;
 
@@ -15,22 +16,28 @@ use think\exception\DbException;
  */
 class ArticleService
 {
-    public function req2model($request)
+
+    public static function req2model($request)
     {
         $model = [];
         $model['title'] = $request['title'];
         $model['description'] = $request['description'];
         $model['source'] = NewsSource::$USER_ADD;
         $model['uid'] = cookie('uid');
+        $model['create_time'] = time();
         return $model;
     }
 
     /**
      * 发布文章
      */
-    public function releaseNews($request)
+    public static function releaseNews($request)
     {
-        $model = $this->req2model($request);
+        $validate = new ArticleValidate();
+        if ($validate->scene('insert')->check($request) === false) {
+            return json(['code' => Code::$PARAM_ERROR, 'message' => $validate->getError()]);
+        }
+        $model = self::req2model($request);
         try {
             Article::create($model);
             log4('文章发布成功', 'uid:'.cookie('uid'));

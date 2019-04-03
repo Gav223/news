@@ -16,22 +16,22 @@
     <title>首页</title>
 </head>
 <body>
-<form class="am-form">
+<form class="am-form" id="form">
     <fieldset>
         <!--<legend>发布新闻</legend>-->
 
         <div class="am-form-group  am-input-sm">
-            <label for="doc-ipt-email-1">文章类型</label>
+            <label for="category">文章类型</label>
             <div class="am-form-group am-form-select">
-                <select class="am-input-sm" name="category">
+                <select class="am-input-sm" name="category" id="category">
                     <option value="">生活</option>
                 </select>
             </div>
         </div>
 
         <div class="am-form-group  am-input-sm">
-            <label for="doc-ipt-email-1">标题</label>
-            <input type="text" class="am-input-sm" id="doc-ipt-email-1" name="title" placeholder="文章标题">
+            <label for="title">标题</label>
+            <input type="text" class="am-input-sm" id="title" name="title" placeholder="文章标题">
         </div>
 
         <div class="am-form-group  am-input-sm">
@@ -54,11 +54,11 @@
         <div class="am-form-group am-form-file am-input-sm">
             <label for="doc-ipt-file-2">文章内容</label>
         </div>
-        <div id="contentEditor">
+        <div id="content">
         </div>
 
         <p>
-            <button type="button" id="releaseArticle" class="am-btn am-btn-primary am-btn-block">发布</button>
+            <button id="releaseArticle" class="am-btn am-btn-primary am-btn-block">发布</button>
         </p>
     </fieldset>
 </form>
@@ -90,8 +90,8 @@
         });
     });
 
-    var contentEditor = new Eleditor({
-        el: '#contentEditor',
+    var content = new Eleditor({
+        el: '#content',
         upload: {
             server: '/',
             formData: {
@@ -132,19 +132,28 @@
     });
 
     $("#releaseArticle").click(function () {
+        var params = $("#form").serializeArray();
+        var values = {'_method':'POST'};
+        for( x in params ){
+            values[params[x].name] = params[x].value;
+        }
+        var formData = JSON.stringify(values);
         //明天做
         $.ajax({
                 url: "{:url('/index/Article/releaseArticle')}",
                 type: 'POST',
                 cache: false,
-                data: formData,
+                data:formData,
                 dataType: "json",
                 processData: false,
                 contentType: false,
-                success: function (response) {
-                    $("#image_url").val(response.data);
-                    //上传成功的处理
-                    alert('success');
+                success: function (response) { 
+                    if (response.code === 200) {
+                        alert('新闻发布成功,请耐心等待管理员审核');
+                    } else {
+                        alert(response.message);
+                        return false;
+                    }
                 }
         });
     });
