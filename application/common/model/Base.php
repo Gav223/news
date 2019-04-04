@@ -23,9 +23,9 @@ class Base extends Model
         return $count;
     }
 
-    public static function findByCondition(array $condition = [], $field = '', array $sort = ['id' => 'desc'])
+    public static function findByCondition(array $condition = [], $field = '', array $sort = ['id' => 'desc'], $limit = null)
     {
-        return self::where($condition)->field($field)->order($sort)->select();
+        return self::where($condition)->field($field)->order($sort)->limit(0, $limit)->select();
     }
 
     public static function findOneByCondition(array $condition = [], $field = '', array $sort = ['id' => 'desc'])

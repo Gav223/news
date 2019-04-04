@@ -3,9 +3,12 @@ namespace app\index\service;
 
 use app\common\lib\Code;
 use app\common\lib\Message;
+use app\common\lib\message\ArticleMessage;
+use app\common\lib\status\ArticleStatus;
 use app\common\lib\status\NewsSource;
 use app\common\model\Article;
 use app\common\validate\ArticleValidate;
+use think\Exception;
 use think\exception\DbException;
 
 /**
@@ -38,28 +41,46 @@ class ArticleService
 
     /**
      * 发布文章
+     * @param $requestParam
+     * @return \think\response\Json
      */
-    public static function releaseNews($request)
+    public static function releaseNews($requestParam)
     {
         $validate = new ArticleValidate();
-        if ($validate->scene('insert')->check($request) === false) {
-            log4('参数验证未通过', $validate->getError());
+        if ($validate->scene('insert')->check($requestParam) === false) {
+            log4(ArticleMessage::$FAIL, $requestParam, $validate->getError(), 'error');
             return json(['code' => Code::$PARAM_ERROR, 'message' => $validate->getError()]);
         }
-        $model = self::req2model($request);
         try {
-            Article::create($model);
-            log4('文章发布成功', 'uid:'.cookie('uid'));
-            return json(['code' => Code::$SUCCESS, 'message' => Message::$SUCCESS]);
-        } catch (DbException $exception) {
-            log4('文章发布失败', 'uid:'.cookie('uid').'原因:'.$exception->getMessage());
-            return json(['code' => Code::$FAIL, 'message' => Message::$FAIL]);
+            $model = self::req2model($requestParam);
+            $result = Article::create($model);
+            log4(ArticleMessage::$SUCCESS, "article_id:{$result->getLastInsID()}");
+            return json(['code' => Code::$SUCCESS, 'message' => ArticleMessage::$SUCCESS]);
+        } catch (Exception $exception) {
+            log4(ArticleMessage::$FAIL, $exception, $exception->getMessage(), 'error');
+            return json(['code' => Code::$FAIL, 'message' => ArticleMessage::$FAIL]);
         }
     }
 
+    /**
+     * 获取文章详情
+     * @param $requestParam
+     * @return array|\PDOStatement|string|\think\Model|null
+     */
     public static function getArticleDetails($requestParam)
     {
         $articleId = $requestParam['id'];
         return Article::findOneByCondition(['id' => $articleId]);
+    }
+
+    /**
+     * 查询最新n篇文章
+     * @param int $limit
+     * @return mixed
+     */
+    public static function getNewArticleList($limit = DEFAULT_SHOW_NUM)
+    {
+        $articleList = Article::findByCondition(['status' => ArticleStatus::$WAIT_TO_CHECK], '', ['id' => 'desc'], $limit);
+        return ArticleCategoryService::setCategoryName($articleList);
     }
 }

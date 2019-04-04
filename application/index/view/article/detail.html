@@ -2,6 +2,25 @@
 {block name="title"}新闻详情{/block}
 {block name="main"}
 <div class="pet_mian" >
+    <button
+            type="button"
+            class="am-btn am-btn-success"
+            id="doc-prompt-toggle">
+        Prompt
+    </button>
+
+    <div class="am-modal am-modal-prompt" tabindex="-1" id="my-prompt">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">评论</div>
+            <div class="am-modal-bd">
+                <input type="text" class="am-modal-prompt-input" placeholder="说点什么吧...">
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+                <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+            </div>
+        </div>
+    </div>
         <div class="pet_content_block">
             <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default pet_content_article" data-am-paragraph="{ tableScrollable: true, pureview: true }">
                 <h1 class="pet_article_title">{$article['title']}</h1>
@@ -22,8 +41,8 @@
             </article>
             <ul class="like_share_block">
                 <li><a class="link_share_button" href="###"><i class="iconfont share_ico_link">&#xe62f;</i>1460</a></li>
-                <li><a class="link_share_button" href="###"><i class="iconfont share_ico_wx">&#xe630;</i>微信</a></li>
-                <li><a class="link_share_button" href="###"><i class="iconfont share_ico_pyq">&#xe62e;</i>朋友圈</a></li>
+                <li><a class="link_share_button" href="###"><i class="iconfont share_ico_wx">&#xe630;</i>评论</a></li>
+                <li><a class="link_share_button" href="###"><i class="iconfont share_ico_pyq">&#xe62e;</i>微信</a></li>
             </ul>
         </div>
         <div class="pet_comment_list">
@@ -214,6 +233,30 @@
         });
         $('.pet_more_close').on('click',function(){
             $('.pet_more_list').removeClass('pet_more_list_show');
+        });
+
+        $('#doc-prompt-toggle').on('click', function() {
+            $('#my-prompt').modal({
+                relatedTarget: this,
+                onConfirm: function(e) {
+                    $.ajax({
+                        url: "{:url('/index/Upload/uploadImage')}",
+                        type: 'POST',
+                        cache: false,
+                        data: formData,
+                        dataType: "json",
+                        processData: false,
+                        contentType: false,
+                        success: function (response) {
+                            $("#image_url").val(response.data);
+                            //上传成功的处理
+                            alert('success');
+                        }
+                    });
+                },
+                onCancel: function(e) {
+                }
+            });
         });
     });
 
