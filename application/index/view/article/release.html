@@ -160,5 +160,64 @@
     });
 
 </script>
+<<<<<<< HEAD
+<script>
+    $('#doc-ipt-file-2').on('change', function () {
+        var file = this.files[0];
+        var fileName = file.name;
+        var fileType = fileName.substr(fileName.length - 4, fileName.length);
+        console.log(fileType);
+        if (fileType == 'jpg' || fileType == 'jpeg' || fileType == 'png') {
+            var formData = new FormData()
+            formData.append("image", file);
+            $.ajax({
+                url: "{:url('/index/Upload/uploadImage')}",
+                type: 'POST',
+                cache: false,
+                data: formData,
+                dataType: "json",
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    $("#image_url").val(response.data);
+                    //上传成功的处理
+                    alert('success');
+                }
+            });
+        } else {
+            alert('文件类型不正确');
+        }
+    });
+
+    $("#releaseArticle").click(function () {
+        var params = $("#form").serializeArray();
+        var values = {'_method':'POST'};
+        for( x in params ){
+            values[params[x].name] = params[x].value;
+        }
+        var formData = JSON.stringify(values);
+        //明天做
+        $.ajax({
+                url: "{:url('/index/Article/releaseArticle')}",
+                type: 'POST',
+                cache: false,
+                data:formData,
+                dataType: "json",
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    if (response.code === 200) {
+                        alert('新闻发布成功,请耐心等待管理员审核');
+                    } else {
+                        alert(response.message);
+                        return false;
+                    }
+                }
+        });
+    });
+</script>
+
+=======
+>>>>>>> 96843ff63b483cf7e23d0eafb8c7c3b5e4abb8b8
 </body>
 </html>
