@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3fcebd-82a1-4d2a-8580-814a8acbf134" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/common/model/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/service/ArticleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/service/ArticleService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/service/IndexService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/service/IndexService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/article/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/article/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="8e3fcebd-82a1-4d2a-8580-814a8acbf134" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/application/index/controller/Article.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="653">
-              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#39#76#0#PHP" expanded="true" />
               </folding>
@@ -65,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/application/index/controller/ArticleComment.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="e#39#83#0#PHP" expanded="true" />
               </folding>
@@ -89,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/application/index/service/ArticleService.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="863">
-              <caret line="82" column="85" lean-forward="true" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
+              <caret line="82" column="85" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
               <folding>
                 <element signature="e#36#60#0#PHP" expanded="true" />
               </folding>
@@ -307,7 +297,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13865097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,7 +587,7 @@
     <entry file="file://$PROJECT_DIR$/application/index/controller/ArticleComment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="e#39#83#0#PHP" expanded="true" />
           </folding>
@@ -618,7 +607,7 @@
     <entry file="file://$PROJECT_DIR$/application/index/controller/Article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
-          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="e#39#76#0#PHP" expanded="true" />
           </folding>
@@ -628,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/application/index/service/ArticleService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="863">
-          <caret line="82" column="85" lean-forward="true" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
+          <caret line="82" column="85" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
           <folding>
             <element signature="e#36#60#0#PHP" expanded="true" />
           </folding>
